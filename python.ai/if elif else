@@ -1,0 +1,45 @@
+
+age=20 
+if age >= 18:
+    print("adult")
+else:
+    print("minor")
+
+
+
+marks = 50
+if marks>=55:
+    print("pass")
+else:
+    print("fail")    
+    
+
+
+marks = 75
+if marks >= 90:
+    print("grade A")
+elif 75 <= marks < 90:          
+    print("grade B")
+elif 50 <= marks < 75:          
+    print("grade C")
+else:
+    print("grade D")
+
+
+
+age= 19
+has_id = True
+if age>=19 and has_id:
+    print("eligible to vote")
+else:
+    print("not eligible to vote")
+
+
+
+age = 22
+has_id = True
+
+if age >= 18 and has_id:
+    print("Entry allowed")
+else:
+    print("Entry denied")

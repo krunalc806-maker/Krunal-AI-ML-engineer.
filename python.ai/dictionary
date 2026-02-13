@@ -1,0 +1,51 @@
+student = { 
+    "name" : "Krunal",
+    "age" : 19,
+    "marks" : 99
+}
+student["city"] = "Mumbai",
+print(student)
+print(student["name"])
+print(student["marks"])
+
+# New key add karna
+student["phone"] = "1234567890"
+print(student)
+
+# Update karna
+student["marks"] = 100
+print(student)
+
+# Delete karna
+del student["age"] ,student.pop("phone")
+print(student)
+
+
+
+students ={
+    "krunal": 99,           
+    "ram": 95,
+    "shyam": 78,
+}
+
+for name,marks in students.items():
+    if marks >= 90:
+        print("pass", name)
+    else:
+        print("fail", name)    
+
+
+person = {
+    "name": "Amit",
+    "age": 22
+}
+
+# add city
+# update age
+# print all keys
+# loop and print
+person["city"] = "Delhi"
+person["age"] = 23      
+print(person.keys())    
+for key, value in person.items():
+    print(key, value)

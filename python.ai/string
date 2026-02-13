@@ -1,0 +1,28 @@
+
+// string
+first = "ai"
+second = "ml"
+print(first +" "+second)
+
+name = "krunal"
+city = "ahmedabad"
+job = "aiml specialist"
+dream = "business"
+print("hello",name)
+print("i am living",city)
+print("my shokh job",job)
+print("my dream is",dream)
+
+name = "krunal"
+age = 19
+print(f"my name is {name} and age is {age}")
+
+name = "royalchavda"
+city = "ahmedabad"
+ print(f"my name is {name} and i am living in {city} ")
+
+name = "Royalking"
+age = 19
+is_pass = True
+percentage = 99.80
+print("my name is",name,"and i am ",age,"years old and i am in 12",is_pass,"and my percentage is",percentage)

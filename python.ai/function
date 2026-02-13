@@ -1,0 +1,7 @@
+def greet ():
+    print("hello bro")
+greet()    
+
+def greet(x):
+    square = x*x
+    print(square(10))

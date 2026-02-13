@@ -1,0 +1,42 @@
+s = {10,20,20,30,}
+print(s)   # Output: {10, 20, 30}
+
+s ={10,20,30,40,30}
+print(s)  # Output: {40, 10, 20, 30}
+
+// set operations
+s ={10,20,30,40,}
+s.add(50)
+print(s) # Output: {50, 10, 20, 30, 40}
+
+s ={10,20,30,40,}
+s.remove(50) or s.discard(50)
+print(s) # Output: {10, 20, 30, 40}
+
+a = {1, 2, 3}
+b = {3, 4, 5}
+print(a.union(b)) & a|b # Output: {1, 2, 3, 4, 5}
+print(a.intersection(b)) # a&b # Output: {3}
+print(a.difference(b)) # a-b # Output: {1, 2}
+
+s.clear()
+print(s) # Output: set()
+
+// example:
+students_python = {"A", "B", "C"}
+students_ml = {"B", "C", "D"}
+
+print("All students:", students_python | students_ml)
+print("Both:", students_python & students_ml)
+
+
+A = {10, 20, 30}
+B = {20, 40}
+
+# print union
+# print intersection
+# remove 30 from A
+print("Union:", A | B)  # Output: {10, 20, 30, 40}
+print("Intersection:", A & B)  # Output: {20}
+A.remove(30)
+print("Set A after removing 30:", A)  # Output: {10, 20}

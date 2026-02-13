@@ -1,0 +1,43 @@
+
+# operater
+
+# arithmetic
+a=30
+b=20
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+
+#  comparison
+
+age = 19
+print(age >= 19)
+print(age <= 19)
+print(age == 19)
+print(age != 19)
+print(age < 19)
+print(age > 19)
+
+# logical
+
+age = 19
+has_id = True
+print(age >= 19 and has_id)
+
+name = "krunal"
+age = 19
+print(name or age)
+
+
+is_logged_in = False
+print(not is_logged_in)
+# not True ko False bana deta hai
+# False ko True
+
+
+# assignment
+x=10
+x+=10
+print(x)

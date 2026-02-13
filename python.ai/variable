@@ -1,0 +1,17 @@
+# variable
+
+num = 20
+print(num)
+
+age = 19
+print(age)
+
+age = 18
+name = "krunal"
+print(age,name)
+
+Name = input("enter your name:")
+print(Name)
+
+age = int(input("enter your age:"))
+print(age + 10)
