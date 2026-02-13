@@ -1,16 +1,14 @@
-# Python & Machine Learning Practice
+# Data Science Practice - Krunal Chavda
 
-Hi 👋  
-This repository contains my daily Python and Machine Learning practice codes.
+This repository contains my practice notebooks in:
+- NumPy
+- Pandas
+- Data Analysis Basics
 
-## What I am learning
-- Python basics and advanced
-- Data analysis with NumPy & Pandas
-- Machine Learning algorithms
-- Mini projects and practice tasks
+I am currently learning Data Science and continuously improving my skills.
 
-## Goal
-To become a Machine Learning Engineer and get a good job in AI/ML.
-
-## Author
-Krunal Chavda
+Tools Used:
+- Python
+- Jupyter Notebook
+- NumPy
+- Pandas
